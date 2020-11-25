@@ -1,0 +1,35 @@
+
+.image-area:hover {
+    cursor: pointer;
+}
+.image-actions {
+    display: none;
+}
+
+.image-area:hover .image-actions {
+    display: inline-block;
+    color: green;
+ }
+
+
+ .image-area {
+	position: relative;
+	display: inline-block;
+}
+
+.image-area:hover .image-actions {
+	display: block;
+}
+
+.image-actions {
+	padding-top: 7px;	
+	padding-right: 7px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+
+.image-actions Button {
+	color: #000;
+}
